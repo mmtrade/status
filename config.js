@@ -18,6 +18,6 @@ module.exports = {
   },
   "content": {
     "frontMatterFormat": "yaml",
-    "systems": ['core_service', 'connector_service', 'auth_service', 'verify_service']
+    "systems": ['site_delivery', 'core_service', 'connector_service', 'auth_service', 'verify_service']
   }
 }
