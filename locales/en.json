@@ -1,4 +1,20 @@
 {
   "title": "MMTrade Status",
-  "description": ""
+  "description": "",
+  "systems": {
+  	"items": {
+  		"core_service": {
+  			"title": "Core Service"
+  		},
+  		"connector_service": {
+  			"title": "Connector Service"
+  		},
+  		"auth_service": {
+  			"title": "Auth Service"
+  		},
+  		"verify_service": {
+  			"title": "Verify Service"
+  		}
+  	}
+  }
 }

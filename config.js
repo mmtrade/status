@@ -1,6 +1,6 @@
 module.exports = {
   "title": "MMTrade Status",
-  "name": "mmtrade_status",
+  "name": "mmtrade-status",
   "description": "",
   "defaultLocale": "en",
   "locales": [
@@ -11,7 +11,13 @@ module.exports = {
       "file": "en.json"
     }
   ],
+  "en": {
+    "contact": "https://mmaker.trade",
+    "support": "https://mmaker.trade",
+    "home": "https://mmaker.trade"
+  },
   "content": {
-    "frontMatterFormat": "yaml"
+    "frontMatterFormat": "yaml",
+    "systems": ['core_service', 'connector_service', 'auth_service', 'verify_service']
   }
 }
