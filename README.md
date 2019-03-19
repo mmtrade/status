@@ -1,5 +1,7 @@
 # MMTrade Status Page
 
+Status page for all MMTrade services.
+
 ## Getting started
 
 It’s pretty easy to get started with Statusfy. Install it globally with npm:
@@ -44,3 +46,6 @@ npm run build # OR yarn build
 # launch the server
 npm run start # OR yarn start
 ```
+
+[npx]: https://www.npmjs.com/package/npx
+[npm]: https://www.npmjs.com/get-npm
