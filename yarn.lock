@@ -7742,7 +7742,7 @@ statuses@~1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.4.0.tgz#bb73d446da2796106efcc1b601a253d6c46bd087"
 
-statusfy@^0.3.0-alpha.1:
+statusfy@0.3.0-alpha.1:
   version "0.3.0-alpha.1"
   resolved "https://registry.yarnpkg.com/statusfy/-/statusfy-0.3.0-alpha.1.tgz#f9d63c45838f2f617d754891fc98e925c1124e2a"
   dependencies:
