@@ -596,15 +596,15 @@
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
 
-"@fortawesome/fontawesome-common-types@^0.2.15":
-  version "0.2.15"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.15.tgz#16af950653083d1e3064061de9f8e5e3b579f688"
+"@fortawesome/fontawesome-common-types@^0.2.16":
+  version "0.2.16"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.16.tgz#7428620cd5ac9b148f40b45413b5de7205954d5e"
 
-"@fortawesome/fontawesome-svg-core@^1.2.5":
-  version "1.2.15"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.15.tgz#368f9fc7e8e8d8636495dc7483f97510f920ba97"
+"@fortawesome/fontawesome-svg-core@^1.2.16":
+  version "1.2.16"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.16.tgz#f0a4f9dd410f3d2888665d48de95b1b69f238d9d"
   dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.2.15"
+    "@fortawesome/fontawesome-common-types" "^0.2.16"
 
 "@jimp/bmp@^0.5.4":
   version "0.5.4"
@@ -1118,23 +1118,23 @@
     mustache "^2.3.0"
     stack-trace "0.0.10"
 
-"@statusfy/cli@^0.3.0-beta.1":
-  version "0.3.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@statusfy/cli/-/cli-0.3.0-beta.1.tgz#bc5cf4a1877d81c9c2a4df993b2db6d0d71496a9"
+"@statusfy/cli@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@statusfy/cli/-/cli-0.3.0.tgz#b6673b37e7bb4eebf14f9ce171be0e53790578bd"
   dependencies:
     commander "^2.15.1"
     semver "^5.5.0"
 
-"@statusfy/common@^0.3.0-beta.1":
-  version "0.3.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@statusfy/common/-/common-0.3.0-beta.1.tgz#82c49dc2f581b7a06210cdabb192a91e73fd42ab"
+"@statusfy/common@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@statusfy/common/-/common-0.3.0.tgz#36ba4f3e0f1ba3d50c1ef0775179c9669814ada7"
   dependencies:
-    autoprefixer "^9.4.10"
+    autoprefixer "^9.5.0"
     chalk "^2.3.2"
-    consola "^2.5.6"
+    consola "^2.5.7"
     cssnano "^4.1.4"
     dayjs "^1.8.10"
-    esm "^3.2.16"
+    esm "^3.2.18"
     fs-extra "^7.0.0"
     gray-matter "^4.0.1"
     hash-sum "^1.0.2"
@@ -1152,15 +1152,15 @@
     validator "^10.8.0"
     yaml "^1.4.0"
 
-"@statusfy/core@^0.3.0-beta.1":
-  version "0.3.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@statusfy/core/-/core-0.3.0-beta.1.tgz#266c039de044306a4661078f6c845f5f7d7ba4f8"
+"@statusfy/core@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@statusfy/core/-/core-0.3.0.tgz#0072c4e6dc9e005bd2244c5ea7d7851dac1ef7b2"
   dependencies:
-    "@fortawesome/fontawesome-svg-core" "^1.2.5"
+    "@fortawesome/fontawesome-svg-core" "^1.2.16"
     "@nuxtjs/axios" "^5.4.1"
     "@nuxtjs/pwa" "^2.5.0"
-    "@statusfy/common" "^0.3.0-beta.1"
-    "@statusfy/markdown" "^0.3.0-beta.1"
+    "@statusfy/common" "^0.3.0"
+    "@statusfy/markdown" "^0.3.0"
     body-parser "^1.18.3"
     browser-sync "^2.26.0"
     cors "^2.8.4"
@@ -1188,18 +1188,18 @@
     stylelint-webpack-plugin "^0.10.5"
     url "^0.11.0"
     v-tooltip "^2.0.0-rc.33"
-    vue-multianalytics "1.11.4"
+    vue-multianalytics "1.11.5"
     vue-svgicon "^3.2.4"
 
-"@statusfy/editor@^0.3.0-beta.1":
-  version "0.3.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@statusfy/editor/-/editor-0.3.0-beta.1.tgz#da973af707192a4f7904058e16d57b8128ba22e2"
+"@statusfy/editor@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@statusfy/editor/-/editor-0.3.0.tgz#95cf328b7c18926127e54bd5dbc01a084d097923"
 
-"@statusfy/markdown@^0.3.0-beta.1":
-  version "0.3.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@statusfy/markdown/-/markdown-0.3.0-beta.1.tgz#0744dc1e1aefcb141691d6d8bf7c764187cce1dc"
+"@statusfy/markdown@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@statusfy/markdown/-/markdown-0.3.0.tgz#a429d3504e4b885a52f2ed54e489f294db1f717e"
   dependencies:
-    "@statusfy/common" "^0.3.0-beta.1"
+    "@statusfy/common" "^0.3.0"
     markdown-it "^8.4.1"
     markdown-it-container "^2.0.0"
     markdown-it-emoji "^1.4.0"
@@ -1688,7 +1688,7 @@ atob@^2.1.1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
 
-autoprefixer@^9.0.0, autoprefixer@^9.4.10, autoprefixer@^9.4.5, autoprefixer@^9.4.9:
+autoprefixer@^9.0.0, autoprefixer@^9.4.5, autoprefixer@^9.4.9, autoprefixer@^9.5.0:
   version "9.5.0"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-9.5.0.tgz#7e51d0355c11596e6cf9a0afc9a44e86d1596c70"
   dependencies:
@@ -2485,6 +2485,10 @@ consola@^2.0.0-1, consola@^2.3.0, consola@^2.3.2, consola@^2.5.6:
   version "2.5.6"
   resolved "https://registry.yarnpkg.com/consola/-/consola-2.5.6.tgz#5ce14dbaf6f5b589c8a258ef80ed97b752fa57d5"
 
+consola@^2.5.7:
+  version "2.5.7"
+  resolved "https://registry.yarnpkg.com/consola/-/consola-2.5.7.tgz#72b313ac9039b181c8adc065c1c092effa417122"
+
 console-browserify@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/console-browserify/-/console-browserify-1.1.0.tgz#f0241c45730a9fc6323b206dbf38edc741d0bb10"
@@ -3252,7 +3256,7 @@ eslint-scope@^4.0.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-esm@^3.2.16, esm@^3.2.3:
+esm@^3.2.18, esm@^3.2.3:
   version "3.2.18"
   resolved "https://registry.yarnpkg.com/esm/-/esm-3.2.18.tgz#54e9276449ab832b01240069ae66bf245785c767"
 
@@ -7693,14 +7697,14 @@ statuses@~1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.4.0.tgz#bb73d446da2796106efcc1b601a253d6c46bd087"
 
-statusfy@0.3.0-beta.1:
-  version "0.3.0-beta.1"
-  resolved "https://registry.yarnpkg.com/statusfy/-/statusfy-0.3.0-beta.1.tgz#726d553cd9a59999aa6be0426f4e4ff27b869ae4"
+statusfy@0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/statusfy/-/statusfy-0.3.0.tgz#370dddf44827ec4949d92ad05c04da63e0bafbed"
   dependencies:
     "@nuxtjs/opencollective" "^0.2.0"
-    "@statusfy/cli" "^0.3.0-beta.1"
-    "@statusfy/core" "^0.3.0-beta.1"
-    "@statusfy/editor" "^0.3.0-beta.1"
+    "@statusfy/cli" "^0.3.0"
+    "@statusfy/core" "^0.3.0"
+    "@statusfy/editor" "^0.3.0"
 
 std-env@^2.2.1:
   version "2.2.1"
@@ -8595,9 +8599,9 @@ vue-meta@^1.5.8:
     lodash.uniqueid "^4.0.1"
     object-assign "^4.1.1"
 
-vue-multianalytics@1.11.4:
-  version "1.11.4"
-  resolved "https://registry.yarnpkg.com/vue-multianalytics/-/vue-multianalytics-1.11.4.tgz#563229f9b4c0f56815ecf5b05f9f2dfcd815f80a"
+vue-multianalytics@1.11.5:
+  version "1.11.5"
+  resolved "https://registry.yarnpkg.com/vue-multianalytics/-/vue-multianalytics-1.11.5.tgz#8df5a2f52fc5a3197b940ce8363e33786acd8a7f"
 
 vue-no-ssr@^1.1.1:
   version "1.1.1"
