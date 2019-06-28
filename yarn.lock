@@ -1242,20 +1242,20 @@
     mustache "^2.3.0"
     stack-trace "0.0.10"
 
-"@statusfy/cli@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@statusfy/cli/-/cli-0.4.0.tgz#5c7db58bcc1be5d0ca8eb51fd4573bed0edb03d3"
+"@statusfy/cli@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@statusfy/cli/-/cli-0.4.1.tgz#c2fae8faf9939d35dd44766b34640473ef2377b4"
   dependencies:
     commander "^2.15.1"
-    semver "^6.1.1"
+    semver "^6.1.2"
 
-"@statusfy/common@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@statusfy/common/-/common-0.4.0.tgz#7f4b859a27fc59e3dbd3d8e3504d4afe42af155b"
+"@statusfy/common@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@statusfy/common/-/common-0.4.1.tgz#73a7b30aa6d57a92dbbd97e24636a5fddbd97eeb"
   dependencies:
     autoprefixer "^9.6.0"
     chalk "^2.3.2"
-    consola "^2.7.1"
+    consola "^2.9.0"
     cssnano "^4.1.4"
     dayjs "^1.8.14"
     esm "^3.2.25"
@@ -1264,7 +1264,7 @@
     hash-sum "^1.0.2"
     lodash.isstring "^4.0.1"
     lru-cache "5.1.1"
-    postcss-combine-duplicated-selectors "^7.0.0"
+    postcss-combine-duplicated-selectors "^8.0.1"
     postcss-import "^12.0.0"
     postcss-nested "^4.1.2"
     postcss-preset-env "^6.6.0"
@@ -1276,16 +1276,16 @@
     validator "^11.0.0"
     yaml "^1.6.0"
 
-"@statusfy/core@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@statusfy/core/-/core-0.4.0.tgz#6fd3b9fab06ef76746b7f79ec6b39edc0e2005da"
+"@statusfy/core@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@statusfy/core/-/core-0.4.1.tgz#80a187c00badb497a2f44350f784510dda4ac04f"
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.19"
     "@nuxtjs/axios" "^5.5.4"
     "@nuxtjs/onesignal" "^3.0.0-beta.16"
     "@nuxtjs/pwa" "^3.0.0-beta.16"
-    "@statusfy/common" "^0.4.0"
-    "@statusfy/markdown" "^0.4.0"
+    "@statusfy/common" "^0.4.1"
+    "@statusfy/markdown" "^0.4.1"
     body-parser "^1.18.3"
     browser-sync "^2.26.7"
     cors "^2.8.4"
@@ -1297,7 +1297,7 @@
     feed "^3.0.0"
     helmet "^3.18.0"
     ics "^2.10.0"
-    inquirer "^6.3.1"
+    inquirer "^6.4.1"
     locale-code "^2.0.2"
     lodash.clonedeepwith "^4.5.0"
     lodash.drop "^4.1.1"
@@ -1306,7 +1306,7 @@
     lodash.sortby "^4.7.0"
     nodemon "^1.19.1"
     nuxt "^2.8.1"
-    nuxt-i18n "^5.12.4"
+    nuxt-i18n "^5.12.7"
     opener "^1.5.0"
     portfinder "^1.0.17"
     sitemap "^2.2.0"
@@ -1315,15 +1315,15 @@
     vue-multianalytics "1.11.7"
     vue-svgicon "^3.2.4"
 
-"@statusfy/editor@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@statusfy/editor/-/editor-0.4.0.tgz#c5d610707ede20ec4c8b40a6e92b56f3833b8796"
+"@statusfy/editor@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@statusfy/editor/-/editor-0.4.1.tgz#53ff46745e74bfeb854ce72ea70a7e05ceceb0df"
 
-"@statusfy/markdown@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@statusfy/markdown/-/markdown-0.4.0.tgz#de819b34f76bac067d7079f1c00d81bda8a021fe"
+"@statusfy/markdown@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@statusfy/markdown/-/markdown-0.4.1.tgz#6ad5c36224bfceb12b956b47e6469f628f1f7149"
   dependencies:
-    "@statusfy/common" "^0.4.0"
+    "@statusfy/common" "^0.4.1"
     markdown-it "^8.4.1"
     markdown-it-container "^2.0.0"
     markdown-it-emoji "^1.4.0"
@@ -2598,6 +2598,10 @@ consola@^2.3.0, consola@^2.5.6:
 consola@^2.6.0, consola@^2.7.1:
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/consola/-/consola-2.7.1.tgz#3f7f7c53eb44362240c3aee41b9bb2641d5ca32e"
+
+consola@^2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/consola/-/consola-2.9.0.tgz#57760e3a65a53ec27337f4add31505802d902278"
 
 console-browserify@^1.1.0:
   version "1.1.0"
@@ -4382,9 +4386,9 @@ ini@^1.3.4, ini@~1.3.0:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
 
-inquirer@^6.3.1:
-  version "6.3.1"
-  resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-6.3.1.tgz#7a413b5e7950811013a3db491c61d1f3b776e8e7"
+inquirer@^6.4.1:
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-6.4.1.tgz#7bd9e5ab0567cd23b41b0180b68e0cfa82fc3c0b"
   dependencies:
     ansi-escapes "^3.2.0"
     chalk "^2.4.2"
@@ -4576,6 +4580,10 @@ is-glob@^4.0.1:
   resolved "https://registry.yarnpkg.com/is-glob/-/is-glob-4.0.1.tgz#7567dbe9f2f5e2467bc77ab83c4a29482407a5dc"
   dependencies:
     is-extglob "^2.1.1"
+
+is-https@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/is-https/-/is-https-1.0.0.tgz#9c1dde000dc7e7288edb983bef379e498e7cb1bf"
 
 is-installed-globally@^0.1.0:
   version "0.1.0"
@@ -5562,15 +5570,16 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
-nuxt-i18n@^5.12.4:
-  version "5.12.4"
-  resolved "https://registry.yarnpkg.com/nuxt-i18n/-/nuxt-i18n-5.12.4.tgz#5f59b4cc4720236dbe42818c17975bdadf5a7396"
+nuxt-i18n@^5.12.7:
+  version "5.12.7"
+  resolved "https://registry.yarnpkg.com/nuxt-i18n/-/nuxt-i18n-5.12.7.tgz#2698c38af16bc1ef059a72e629c1632dca6f4108"
   dependencies:
     "@kazupon/vue-i18n-loader" "^0.3.0"
     acorn "^6.1.1"
     acorn-dynamic-import "^4.0.0"
     acorn-walk "^6.1.1"
     cookie "^0.4.0"
+    is-https "^1.0.0"
     js-cookie "^2.2.0"
     vue-i18n "^8.11.2"
     vue-i18n-extensions "^0.2.1"
@@ -6051,12 +6060,12 @@ postcss-colormin@^4.0.3:
     postcss "^7.0.0"
     postcss-value-parser "^3.0.0"
 
-postcss-combine-duplicated-selectors@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/postcss-combine-duplicated-selectors/-/postcss-combine-duplicated-selectors-7.0.0.tgz#250ffe97341318ed1cb993ca3aadd1599665e0c5"
+postcss-combine-duplicated-selectors@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-combine-duplicated-selectors/-/postcss-combine-duplicated-selectors-8.0.1.tgz#4bdb5503397975ebf84caeacff2ec23b0634dd00"
   dependencies:
     postcss "^7.0.0"
-    postcss-selector-parser "^5.0.0"
+    postcss-selector-parser "^6.0.0"
 
 postcss-convert-values@^4.0.1:
   version "4.0.1"
@@ -7137,6 +7146,10 @@ semver@^6.1.0, semver@^6.1.1:
   version "6.1.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.1.1.tgz#53f53da9b30b2103cd4f15eab3a18ecbcb210c9b"
 
+semver@^6.1.2:
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-6.1.2.tgz#079960381376a3db62eb2edc8a3bfb10c7cfe318"
+
 send@0.16.2:
   version "0.16.2"
   resolved "https://registry.yarnpkg.com/send/-/send-0.16.2.tgz#6ecca1e0f8c156d141597559848df64730a6bbc1"
@@ -7517,14 +7530,14 @@ statuses@~1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.4.0.tgz#bb73d446da2796106efcc1b601a253d6c46bd087"
 
-statusfy@0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/statusfy/-/statusfy-0.4.0.tgz#c93fb66172e89235b11a9bdccaade882e0e2d65d"
+statusfy@0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/statusfy/-/statusfy-0.4.1.tgz#f0f9535e9ab4472090cfd84fe8e079217758184c"
   dependencies:
     "@nuxtjs/opencollective" "^0.2.0"
-    "@statusfy/cli" "^0.4.0"
-    "@statusfy/core" "^0.4.0"
-    "@statusfy/editor" "^0.4.0"
+    "@statusfy/cli" "^0.4.1"
+    "@statusfy/core" "^0.4.1"
+    "@statusfy/editor" "^0.4.1"
 
 std-env@^2.2.1:
   version "2.2.1"
